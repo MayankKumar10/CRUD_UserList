@@ -38,7 +38,7 @@ export const EditUser = (props) => {
     <Form onSubmit={onSubmit}>
       <FormGroup>
         <Label>Name</Label>
-        <Input type="text" value={selectedUser.name} onChange={onChange} name="name" placeholder="Enter user" required></Input>
+        <Input type="text" value={selectedUser.name} onChange={onChange} name="name" placeholder="Enter Name" required></Input>
       </FormGroup>
       <Button type="submit">Edit Name</Button>
       <Link to="/" className="btn btn-danger ml-2">Cancel</Link>
